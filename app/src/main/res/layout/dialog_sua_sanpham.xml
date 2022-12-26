@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SỬA SẢN PHẨM"
+        android:textSize="24dp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sản phẩm"
+        android:inputType="textCapSentences"
+        android:id="@+id/sua_edtTenSP"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá sản phẩm"
+        android:inputType="number"
+        android:maxLength="15"
+        android:id="@+id/sua_edtGiaSP"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sua_btnHinhAnh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn ảnh"
+            android:layout_marginTop="18dp"/>
+
+        <ImageView
+            android:id="@+id/sua_imageView"
+            android:layout_width="107dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="25sp"
+            android:src="@drawable/ic_baseline_image_24" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

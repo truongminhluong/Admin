@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM SẢN PHẨM"
+        android:textSize="24dp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sản phẩm"
+        android:inputType="textCapSentences"
+        android:id="@+id/edtTenSP"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá sản phẩm"
+        android:maxLength="15"
+        android:inputType="number"
+        android:id="@+id/edtGiaSP"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/up_img_edit"
+            android:layout_width="115dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/custom_bg_up_img"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_book_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_up_img" />
+        </LinearLayout>
+        <!--        <Button-->
+        <!--            android:id="@+id/btnHinhAnh"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Chọn ảnh"-->
+        <!--            android:layout_marginTop="18dp"/>-->
+
+        <ImageView
+            android:id="@+id/imageViewThem"
+            android:layout_width="107dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="25sp"
+            android:src="@drawable/ic_baseline_image_24" />
+    </LinearLayout>
+
+
+</LinearLayout>

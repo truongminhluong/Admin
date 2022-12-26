@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="7dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:background="@drawable/khung_san_pham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_hoTen"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ tên" />
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:textSize="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/txt_sdt"
+            android:textSize="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại" />
+
+        <TextView
+            android:id="@+id/txt_diaChi"
+            android:textSize="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ" />
+
+        <TextView
+            android:id="@+id/txt_tenLaptop"
+            android:textSize="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên laptop đã mua" />
+
+        <TextView
+            android:id="@+id/txt_gia"
+            android:textSize="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá laptop" />
+
+        <TextView
+            android:id="@+id/txt_soLuong"
+            android:textSize="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số lượng" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

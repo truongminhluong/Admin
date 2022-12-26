@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Du_an_1_nhom9</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="msg_retriveing_data">Đang lấy dữ liệu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

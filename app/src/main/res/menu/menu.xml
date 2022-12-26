@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mQLSanPham"
+        android:title="Quản lý Laptop"
+        android:icon="@drawable/ic_baseline_laptop_24"/>
+    <item android:id="@+id/mQLLoaiSach"
+        android:title="Quản lý tài khoản"
+        android:icon="@drawable/ic_baseline_account_box_24"/>
+    <item android:id="@+id/mQLHoaDon"
+        android:title="Quản hóa đơn"
+        android:icon="@drawable/ic_baseline_receipt_24"/>
+    <item android:title="Thống kê">
+        <menu>
+            <item android:id="@+id/mTop10"
+                android:title="Top 10 Laptop bán chạy"
+                android:icon="@drawable/ic_top"/>
+            <item android:id="@+id/mDoanhThu"
+                android:title="Doanh thu"
+                android:icon="@drawable/ic_tien"/>
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/mDoiMatKhau"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/ic_key"/>
+            <item android:id="@+id/mThoat"
+                android:title="Thoát"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+        </menu>
+    </item>
+
+</menu>
