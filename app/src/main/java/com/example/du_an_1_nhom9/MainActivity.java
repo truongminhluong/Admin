@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,6 +21,7 @@ import android.widget.Toast;
 import com.example.du_an_1_nhom9.fragment.HoaDonFragment;
 import com.example.du_an_1_nhom9.fragment.QLSanPhamFragment;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity  {
     private DrawerLayout drawerLayout;
@@ -61,7 +63,11 @@ public class MainActivity extends AppCompatActivity  {
                 case R.id.mDoiMatKhau:
                     showDialog("Đổi mật khẩu");
                 case R.id.mThoat:
-                    showDialog("Thoát");
+//                    showDialog("Thoát");
+                    FirebaseAuth.getInstance().signOut();
+                    Intent intent = new Intent(this,Login_Activity.class);
+                    startActivity(intent);
+                    finishAffinity();
                 default:
                     break;
             }

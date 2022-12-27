@@ -114,7 +114,7 @@
             android:layout_marginBottom="24dp"
             android:background="@android:drawable/editbox_background"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:padding="8dp"
             android:textColor="#8e8e8e"
             android:textColorHint="#8e8e8e"

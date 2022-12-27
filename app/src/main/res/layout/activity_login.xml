@@ -37,6 +37,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:text="truongminhluong2003@gmail.com"
             android:id="@+id/edt_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -61,6 +62,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:text="luong123"
             android:id="@+id/edt_pass"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -68,7 +70,7 @@
             android:layout_marginBottom="24dp"
             android:background="@android:drawable/editbox_background"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:padding="8dp"
             android:textColor="#8e8e8e"
             android:textColorHint="#8e8e8e"

@@ -25,7 +25,7 @@
                 android:title="Đổi mật khẩu"
                 android:icon="@drawable/ic_key"/>
             <item android:id="@+id/mThoat"
-                android:title="Thoát"
+                android:title="Đăng xuất"
                 android:icon="@drawable/ic_baseline_exit_to_app_24"/>
         </menu>
     </item>
